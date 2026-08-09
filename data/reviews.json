@@ -1,0 +1,26 @@
+[
+  {
+    "productId": "snd-001",
+    "author": "Nouman Majeed",
+    "rating": 4,
+    "comment": "Good Product worth Buying in this price.",
+    "id": "rev-1786000673647",
+    "createdAt": "2026-08-06T07:17:53.647Z"
+  },
+  {
+    "id": "rev-seed-1",
+    "productId": "tv-001",
+    "author": "Ahmed K.",
+    "rating": 5,
+    "comment": "Amazing picture quality! Delivered to Dubai Marina within 2 days. Highly recommend.",
+    "createdAt": "2026-07-15T10:00:00.000Z"
+  },
+  {
+    "id": "rev-seed-2",
+    "productId": "lap-002",
+    "author": "Sarah M.",
+    "rating": 5,
+    "comment": "Best laptop I've ever owned. Fast, beautiful display, great for video editing.",
+    "createdAt": "2026-07-10T14:30:00.000Z"
+  }
+]
