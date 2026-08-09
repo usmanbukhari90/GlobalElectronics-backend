@@ -1,0 +1,127 @@
+[
+  {
+    "items": [
+      {
+        "productId": "mob-001",
+        "name": "iPhone 15 Pro Max (128GB)",
+        "price": 4299,
+        "quantity": 1,
+        "size": "128GB",
+        "color": "Natural Titanium"
+      }
+    ],
+    "customer": {
+      "name": "Haider Ali",
+      "email": "bukharibaba413@gmail.com",
+      "phone": "565656",
+      "address": "Abdu Dhabi",
+      "city": "Dubai",
+      "emirate": "Fujairah"
+    },
+    "subtotal": 4299,
+    "total": 4299,
+    "id": "ORD-MS8021R2",
+    "status": "pending",
+    "createdAt": "2026-07-30T21:02:20.510Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "lap-001",
+        "name": "HP ZBook Studio Workstation (13\")",
+        "price": 7499,
+        "quantity": 1,
+        "size": "13\"",
+        "color": "Silver"
+      }
+    ],
+    "customer": {
+      "name": "Zulqarnain Haider",
+      "email": "mrbukhari900@gmail.com",
+      "phone": "56565",
+      "address": "H-6",
+      "city": "Dubai",
+      "emirate": "Dubai"
+    },
+    "subtotal": 7499,
+    "total": 7499,
+    "id": "ORD-MS7ZS6A6",
+    "status": "delivered",
+    "createdAt": "2026-07-30T20:54:39.822Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "lap-004",
+        "name": "Lenovo ThinkPad X1 Carbon (13\")",
+        "price": 4999,
+        "quantity": 1,
+        "size": "13\"",
+        "color": "Black"
+      }
+    ],
+    "customer": {
+      "name": "Usman Bukhari",
+      "email": "mrbukhari900@gmail.com",
+      "phone": "5656",
+      "address": "H-6",
+      "city": "Dubai",
+      "emirate": "Ajman"
+    },
+    "subtotal": 4999,
+    "total": 4999,
+    "id": "ORD-MS7Z7VCE",
+    "status": "shipped",
+    "createdAt": "2026-07-30T20:38:52.526Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "lap-003",
+        "name": "Dell XPS 15 OLED Laptop (13\")",
+        "price": 5499,
+        "quantity": 1,
+        "size": "13\"",
+        "color": "Platinum Silver"
+      }
+    ],
+    "customer": {
+      "name": "Syed Muhammad Usman Shah",
+      "email": "sshah.bese25seecs@seecs.edu.pk",
+      "phone": "565656",
+      "address": "Sharjah, Dubai",
+      "city": "Dubai",
+      "emirate": "Sharjah"
+    },
+    "subtotal": 5499,
+    "total": 5499,
+    "id": "ORD-MS7Z4FHJ",
+    "status": "delivered",
+    "createdAt": "2026-07-30T20:36:12.007Z"
+  },
+  {
+    "items": [
+      {
+        "productId": "watch-001",
+        "name": "Apple Watch Ultra 2 (49mm GPS)",
+        "price": 2999,
+        "quantity": 1,
+        "size": "49mm GPS",
+        "color": "Natural Titanium"
+      }
+    ],
+    "customer": {
+      "name": "Syed Muhammad Usman Shah",
+      "email": "sshah.bese25seecs@seecs.edu.pk",
+      "phone": "5656665665",
+      "address": "Dera Dubai",
+      "city": "Dubai",
+      "emirate": "Dubai"
+    },
+    "subtotal": 2999,
+    "total": 2999,
+    "id": "ORD-MS7W17QG",
+    "status": "delivered",
+    "createdAt": "2026-07-30T19:09:43.144Z"
+  }
+]
