@@ -8,6 +8,9 @@ import authRouter from "./routes/auth.js";
 import uploadRouter from "./routes/upload.js";
 import analyticsRouter from "./routes/analytics.js";  
 import notificationsRouter from "./routes/notifications.js";
+import heroBannersRouter from "./routes/hero-banners.js";
+import announcementsRouter from "./routes/announcements.js";
+
 const app = express();
 const PORT = process.env.PORT ?? 4000;
 
@@ -30,6 +33,8 @@ app.use("/api/upload", uploadRouter);
 app.use("/api/analytics", analyticsRouter);
 app.use("/api/reviews", reviewsRouter);
 app.use("/api/notifications", notificationsRouter);
+app.use("/api/hero-banners", heroBannersRouter);
+app.use("/api/announcements", announcementsRouter);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
