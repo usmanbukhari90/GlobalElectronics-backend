@@ -82,6 +82,7 @@ npm start
 
 ## Project Structure
 
+```
 src/
 ├── data/ # Local seed/fallback data
 ├── lib/ # Supabase client, DB helpers, email helper
@@ -90,7 +91,7 @@ src/
 ├── scripts/ # One-off scripts (e.g. migrate.ts)
 ├── types/ # Shared TypeScript types
 └── index.ts # App entry point
-
+```
 
 ## Deployment
 
