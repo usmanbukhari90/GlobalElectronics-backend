@@ -31,7 +31,8 @@ router.post("/", async (req, res) => {
     );
 
     res.status(201).json(order);
-  } catch {
+  } catch (err) {
+    console.error("Order creation failed:", err);
     res.status(500).json({ error: "Failed to create order" });
   }
 });
