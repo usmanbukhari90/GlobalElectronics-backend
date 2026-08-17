@@ -2,19 +2,19 @@ import { Resend } from "resend";
 import { Order } from "../types/index.js";
 
 const resend = new Resend(process.env.RESEND_API_KEY ?? "");
-const FROM_EMAIL = "Kanz Electronics <onboarding@resend.dev>"; // switch to your own domain once verified
+const FROM_EMAIL = "Global Electronics <onboarding@resend.dev>"; // switch to your own domain once verified
 
 function wrapper(title: string, body: string): string {
   return `
     <div style="font-family: Arial, sans-serif; max-width: 500px; margin: 0 auto; padding: 24px;">
       <div style="background: #0f172a; color: white; padding: 20px; border-radius: 8px 8px 0 0; text-align: center;">
-        <h1 style="margin: 0; font-size: 18px; letter-spacing: 1px;">KANZ ELECTRONICS</h1>
+        <h1 style="margin: 0; font-size: 18px; letter-spacing: 1px;">Global ELECTRONICS</h1>
       </div>
       <div style="border: 1px solid #e2e8f0; border-top: none; border-radius: 0 0 8px 8px; padding: 24px;">
         <h2 style="color: #0f172a; margin-top: 0;">${title}</h2>
         ${body}
         <p style="color: #64748b; font-size: 12px; margin-top: 24px; border-top: 1px solid #e2e8f0; padding-top: 16px;">
-          Kanz Electronics · Dubai, UAE · +971 4 280 900 3434
+          Global Electronics · Dubai, UAE · +971 4 280 900 3434
         </p>
       </div>
     </div>
@@ -65,7 +65,7 @@ export async function sendOrderStatusEmail(order: Order) {
     delivered: {
       subject: "Your order has been delivered",
       title: "Delivered ✅",
-      message: "Your order has been delivered. We hope you enjoy your new electronics! Thank you for shopping with Kanz Electronics.",
+      message: "Your order has been delivered. We hope you enjoy your new electronics! Thank you for shopping with Global Electronics.",
     },
   };
 
